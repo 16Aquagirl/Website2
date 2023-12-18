@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="st.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <script>
+        let valuerun = 0;
+        setInterval(run, 100);
+        function run() {
+            if (valuerun <= 12) {
+
+                document.getElementById('run').innerHTML = valuerun;
+                valuerun++;
+            }
+        }
+        let valuerun1 = 0;
+        setInterval(run1, 50);
+        function run1() {
+            if (valuerun1 <= 50) {
+
+                document.getElementById('run1').innerHTML = valuerun1;
+                valuerun1++;
+            }
+        }
+        let valuerun2 = 0;
+        setInterval(run2, 10);
+        function run2() {
+            if (valuerun2 <= 200) {
+
+                document.getElementById('run2').innerHTML = valuerun2;
+                valuerun2++;
+            }
+        }
+        let valuerun3 = 0;
+        setInterval(run3,);
+        function run3() {
+            if (valuerun3 <= 20000) {
+
+                document.getElementById('run3').innerHTML = valuerun3;
+                valuerun3++;
+            }
+        }
+
+        // function f(){
+        //     let d=' ';
+        //     let c='Full Stack Development';
+        //     let stores =0;
+        //     setInterval(()=>{
+        //         d+=c[stores];
+        //         document.getElementById('tex').innerHTML = d;
+        //         stores++;
+        //     },100)
+        // }
+        // setTimeout()
+    </script>
+</head>
+<body onload="f()">
+    <div class="pg1">
+        <div id="parent">
+            <nav>
+                <img id="logo" src="logo.png">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <!-- <select>
+                    <option>Software & web development</option>
+                    <option>Digital marketing</option>
+                    <option>IT Ops & Cyber Security</option>
+                    <option>Data Scinece & Analytics</option>
+                </select> -->
+                    <li><a href="#placement">Placement</a></li>
+                    <li><a href="">Career</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <button class="bt">Contact Us</button>
+            </nav>
+        </div>
+        <h1>Courses</h1>
+        <div class="box1">
+            <h4>Software & Development</h4>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Mern</li>
+                <li>PHP</li>     
+                <li>C /C++/Data structure</li>
+                <li>Software Testing</li>
+            </ul>
+        </div>
+        <div class="box1">
+            <h4>Digital Marketing</h4>
+            <ul>
+                <li>Digital Marketing</li>
+            </ul>
+        </div>
+        <div class="box1">
+            <h4>IT Ops & Cyber Security</h4>
+            <ul>
+                <li>It Security & Ethical Hacking</li>
+                <li>Cloud Computing</li>
+                <li>Linux</li>
+            </ul>
+        </div>
+        <div class="box1">
+            <h4>Data Science & Analytics</h4>
+            <ul>
+                <li>Data Science (ML+ BIG DATA)</li>
+                <li>Data Analytics(Big Data)</li>
+                <li>Machine learning</li>
+                <li>Artificial Intelligence</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

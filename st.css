@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.pg1 {
+    background-image: linear-gradient(135deg, rgb(10, 38, 100) 0%, rgb(18, 80, 147) 100%);
+}
+
+#parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 150px;
+    height: 48px;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* padding: 30px; */
+    color: aliceblue;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.bt {
+    width: 140px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid#00a2ff;
+    position: relative;
+    left:300px;
+    background-color: #0693e3;
+
+}
+
+.bt:hover {
+    color: #00a2ff;
+    border: 3px solid #00a2ff;
+    background-color: #00a2ff00;
+}
+
+
+
+
+#one {
+    /* background-image:linear-gradient(135deg,rgb(12, 40, 101) 0%,rgb(18, 81, 148) 100%); */
+    height: 550px;
+    display: flex;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    justify-content: center;
+
+}
+
+.l1 {
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    padding: 20px;
+}
+
+/* .wow{
+    position: absolute;
+    bottom: 400px;
+    /* left:200px; */
+/* height: 50px;
+    width: 0px;
+    animation: animate 1s ease-in-out 4s infinite ;
+    background-image:linear-gradient(135deg,rgb(10, 38, 100) 0%,rgb(18, 80, 147) 100%);
+}
+@keyframes animate {
+    0%{
+        width:300px;
+    }
+    25%{
+        width:400px
+    }
+    50%{
+        width:600px;
+    }
+    75%{
+        width: 700px;
+    }
+    100%{
+        width: 800px;
+    }
+    
+} */
+*/ h2 {
+    color: #ff6a00;
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gold {
+    background-color: #ff6a00;
+    border: #ff6a00;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.gold:hover {
+    background-color: #ff7e21;
+    border: #ff6a00;
+}
+
+#right {
+    position: relative;
+}
+
+#rocket {
+    width: 550px;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    /* -o-animation-direction: alternate; */
+}
+
+@keyframes anime {
+    0% {
+        transform: rotateX('30deg');
+    }
+
+    100% {
+        transform: rotateY('40deg');
+    }
+
+}
+
+#stats {
+    display: flex;
+    margin-left: 15%;
+    padding: 20px;
+    background-color: rgb(237, 237, 237);
+    width: 70%;
+    border-radius: 25px;
+    position: relative;
+    bottom: 50px;
+}
+
+#box {
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 50px;
+    padding: 0px;
+}
+
+.num {
+    color: black;
+    padding: 64px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#heading h2 {
+    text-align: center;
+    color: #ff6a00;
+    font-size: 30px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#move img {
+    margin: 30px;
+}
+
+#trial {
+    display: flex;
+    justify-content: center;
+}
+
+#blue {
+    background-image: linear-gradient(90deg, rgb(0, 37, 118) 30%, rgb(71, 3, 180) 100%);
+}
+
+#blue h1 {
+    padding: 100px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+}
+
+#lefty {
+    margin-left: 116px;
+    margin-top: 60px;
+
+}
+
+.lefty h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.comma {
+    width: 50px;
+}
+
+h5 {
+    color: white;
+    font-size: 18px;
+    margin-left: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.l3 {
+    color: rgb(22, 31, 130);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 14px;
+}
+
+.ii {
+    color: rgb(255, 214, 8);
+    margin-left: 14px;
+}
+
+/* .righty{
+
+} */
+.dot {
+    position: relative;
+    left: 60px;
+}
+
+.am {
+    position: relative;
+    left:120px;
+    width: 550px;
+    bottom: 180px;
+    border-radius: 20px;
+}
+
+.circle {
+    border-radius: 100px;
+    width: 50px;
+}
+
+.picb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imm {
+    width: 220px;
+    height: 80px;
+    display: flex;
+    background-color: #ffffff00;
+    border: 1px solid rgba(156, 40, 40, 0.632);
+    border-radius: 20px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.imm:hover {
+    cursor: pointer;
+}
+
+.imaage {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.imm h5 {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+h6 {
+    text-align: center;
+    color: #0693e3;
+    margin: 50px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.race {
+    width: 70%;
+    margin: 0 200px 0 200px;
+}
+
+.techno {
+    background-image: linear-gradient(90deg, rgb(1, 25, 78) 30%, rgb(39, 0, 103) 100%);
+}
+
+.techno h1 {
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boxie {
+    display: flex;
+    margin-left: 200px;
+}
+
+.righh h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.righh {
+    margin-left: 100px;
+}
+
+.head h1 {
+    color: #090159;
+    text-align: center;
+}
+
+.company {
+    display: flex;
+    margin-left: 100px;
+}
+
+.imaa {
+    width: 120px;
+    margin: 25px;
+}
+
+.com {
+    height: 150px;
+    width: 180px;
+    margin: 80px;
+}
+
+mark {
+    color: rgb(232, 63, 63);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.reddd {
+    margin-left: 180px;
+    width: 220px;
+}
+
+.linne h1 {
+    color: #090159;
+    margin-left: 80px;
+}
+
+.linne {
+    margin-left: 220px;
+    margin-left: 100px;
+}
+
+details {
+    display: block;
+    background-color: rgba(255, 248, 248, 0.774);
+    padding: 25px;
+    box-shadow: 5px 5px 16px 2px rgba(94, 92, 92, 0.671);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #090159;
+}
+
+.drop {
+    padding: 5px;
+    width: 500px;
+    margin-left: 200px;
+}
+
+.drop p2 {
+    font-weight: 100;
+    color: rgb(149, 149, 149);
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.page {
+    display: flex;
+}
+
+summary:hover{
+    cursor: pointer;
+    
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .popover {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 15px;
+    z-index: 1;
+  }
+  
+  .close {
+    float: right;
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .box1 h4{
+    color: white;
+
+  }
+.formm{
+    margin-left:160px;
+    background-color: #0a0097;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width:400px;
+}
+.mapp{
+    position: absolute;
+    top:5650px;
+}
+#ct{
+    position: relative;
+    left:900px;
+    bottom:460px;
+    color: black;
+}
+.l2{
+    color: black;
+}
+#ct p{
+    color: black;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    color: #8d87d4;
+}
+#btttt{
+    background-color: transparent;
+    border:none;
+}
+.dropdown{
+    position: absolute;
+    bottom:69px;
+    left:90px;
+
+}
+.box4{
+    position: relative;
+    bottom:140px;
+    left:200px;
+}
+.bt a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+textarea{
+    width: 365px;
+    height: 130px;
+    border-radius: 12px;
+    position: relative;
+    right: 28px;
+    top:30px;
+}

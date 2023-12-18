@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+        let valuerun = 0;
+        setInterval(run, 100);
+        function run() {
+            if (valuerun <= 12) {
+
+                document.getElementById('run').innerHTML = valuerun;
+                valuerun++;
+            }
+        }
+        let valuerun1 = 0;
+        setInterval(run1, 50);
+        function run1() {
+            if (valuerun1 <= 50) {
+
+                document.getElementById('run1').innerHTML = valuerun1;
+                valuerun1++;
+            }
+        }
+        let valuerun2 = 0;
+        setInterval(run2, 10);
+        function run2() {
+            if (valuerun2 <= 200) {
+
+                document.getElementById('run2').innerHTML = valuerun2;
+                valuerun2++;
+            }
+        }
+        let valuerun3 = 0;
+        setInterval(run3,);
+        function run3() {
+            if (valuerun3 <= 20000) {
+
+                document.getElementById('run3').innerHTML = valuerun3;
+                valuerun3++;
+            }
+        }
+    </script>  
+</head>
+  <body onload="f()">
+    <div class="pg1">
+        <div id="parent">
+            <nav>
+                <img id="logo" src="logo.png">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <!-- <select>
+                    <option>Software & web development</option>
+                    <option>Digital marketing</option>
+                    <option>IT Ops & Cyber Security</option>
+                    <option>Data Scinece & Analytics</option>
+                </select> -->
+                    <li><a href="#placement">Placement</a></li>
+                    <li><a href="">Career</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <button class="bt">Contact Us</button>
+            </nav>
+        </div>
+        <div id="one">
+            <div id="left">
+                <h1>Accelerate your career!
+                    <br>
+                    & Become JOB READY
+                </h1>
+                <h2 id="tex"></h2>
+                <button class="gold">EXPLORE OUR PROGRAMS →</button>
+            </div>
+            <div id="right">
+                <img id="rocket" src="rocket.png">
+            </div>
+        </div>
+    </div>
+    <div id="stats">
+        <div id="box">
+            <h3 id="run"></h3>
+            <span>LPA Highest Pacakage</span>
+        </div>
+        <div id="box">
+            <h3 id="run1"></h3><br>
+            <span>International Placement</span>
+        </div>
+        <div id="box">
+            <h3 id="run2"></h3><br>
+            <span>Hiring</span>
+        </div>
+        <div id="box">
+            <h3 id="run3"></h3><br>
+            <span>Satisfied Customers</span>
+        </div>
+    </div>
+    <div id="heading">
+        <h2>Cybrom Students</h2>
+        <h4>Successfully Working At</h4>
+    </div>
+    <div id="move">
+        <marquee behavior="scroll" direction="right" scrollamount="12" loop="infinite">
+            <img src="ppl.png">
+            <img src="ppl2.png">
+            <img src="pplgirl2.png">
+            <img src="ppl4.png">
+            <img src="ppl6.png">
+            <img src="pplgirl3.png">
+            <img src="ppl5.png">
+            <img src="pplgirl.png">
+            <img src="ppl3.png">
+        </marquee>
+        <br>
+        <marquee behavior="scroll" direction="left" scrollamount="10">
+            <img src="pplgirl.png">
+            <img src="ppl3.png">
+            <img src="ppl6.png">
+            <img src="pplgirl2.png">
+            <img src="ppl.png">
+            <img src="ppl4.png">
+            <img src="ppl2.png">
+            <img src="pplgirl3.png">
+            <img src="ppl5.png">
+        </marquee>
+    </div>
+    <div id="trial">
+        <button class="gold">Book a free trial NOW →</button>
+    </div>
+    <div id="blue">
+        <h1>Every student has a placement story to inspire you !</h1>
+        <div id="container">
+            <div id="lefty">
+                <img class="comma" src="comma.svg">
+                <h2>Non CS to MNC in Cyber security</h2>
+                <h5>Aman Utkhedkar</h5>
+                <h6>SOC Analyst</h6>
+                <div class="ii">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="righty">
+                <img class="dot" src="dot.png">
+                <img class="am" src="aman.jpg">
+            </div>
+        </div>
+        <div class="picb">
+            <div class="imm">
+                <img class="circle" src="aman.jpg">
+                <h5><b>Aman Utkhedkar</b><br>SOC Analyst</h5>
+            </div>
+            <div class="imm">
+                <img class="circle" src="vipul.jpg">
+                <h5><b>Vipul Soni</b><br>It Security Expert</h5>
+            </div>
+            <div class="imm">
+                <img class="circle" src="shipra.jpg">
+                <h5><b>Shipra Mohanty</b><br>SOC Analyst</h5>
+            </div>
+            <div class="imm">
+                <img class="circle" src="Nikita.jpg">
+                <h5><b>Nikita Negi</b><br>Full Stack Developer</h5>
+            </div>
+            <div class="imm">
+                <img class="circle" src="nitish.jpg">
+                <h5><b>Nitish</b><br>Data Scientist</h5>
+            </div>
+        </div>
+    </div>
+    <div class="head">
+        <h6>PROCESS</h6>
+        <h1>Our Approach to Get you Placed</h1>
+    </div>
+    <img class="race" src="roadrace.jpg">
+    <div class="techno">
+        <h1>Take A Sneak Peek To Our Students
+            Capstone Projects</h1>
+        <center>
+            <p>With Cybrom you can grow in the field of Technology</p>
+            <br>
+            <p><i class="fa fa-desktop"></i>Cyber Security
+                <i class="fa fa-mobile"></i> Full Stack Development
+                <i class="fa fa-gears"></i> Data Science
+            </p>
+        </center>
+        <div class="boxie">
+            <div class="lef">
+                <img src="lockey.png">
+            </div>
+            <div class="righh">
+                <h2>We are working with
+                    <br> 15 years experience
+                </h2>
+                <p><i class="fa fa-check"></i> Bug Bounties and Hackathons</p>
+                <p><i class="fa fa-check"></i> Web Application security</p>
+                <p><i class="fa fa-check"></i> Vulnerability Assesment</p>
+                <p><i class="fa fa-check"></i> Malware Analysis Sandbox</p>
+                <br>
+                <p style="color: grey;">Know More About Us→</p>
+            </div>
+        </div>
+    </div>
+    <div id="placement" class="head">
+        <h6>PLACEMENTS</h6>
+        <h1>Our Students Placed At</h1>
+    </div>
+    <div class="company">
+        <div class="com">
+            <img class="imaage" src="Yash.png">
+        </div>
+        <div class="com">
+            <img class="imaa" src="tcs1.png">
+        </div>
+        <div class="com">
+            <img class="imaage" src="Neosoft.png">
+        </div>
+        <div class="com">
+            <img class="imaage" src="Infosys.png">
+        </div>
+    </div>
+    <div class="company">
+        <div class="com">
+            <img class="imaa" src="capegemini-1.png">
+        </div>
+        <div class="com">
+            <img class="imaa" src="Netlink.png">
+        </div>
+        <div class="com">
+            <img class="imaa" src="mphasis.png">
+        </div>
+        <div class="com">
+            <img class="imaa" src="cognizant.png">
+        </div>
+    </div>
+    <div class="linne">
+        <h1>Why <mark>Cybrom!</mark></h1>
+        <img class="reddd" src="redline.png">
+    </div>
+    <div class="page">
+        <div class="drop">
+            <details>
+                <summary>Practical Based Learning</summary>
+                <p2>We offer training as per industry standards and simultaneously make our students ready for
+                    <br>live projects in different domains like website designing, website development, big data
+                    analysis,<br>
+                    etc. At the end of the training, our student is well versed with the theoretical and practical
+                    application of it.
+                </p2>
+            </details>
+            <details>
+                <summary>Global Certifications</summary>
+                <p2>The courses offered at Cybrom, not only have intensive training modules but also provide globally
+                    recognized <br>
+                    certificates to the candidates which fastens the pace of their career journey.</p2>
+            </details>
+            <details>
+                <summary>State Of The Art Infrastructure</summary>
+                <p2>Cybrom is located in the central part of the capital i.e MP Nagar with the area of 25000Sq.ft. The
+                    rooms are well<br>
+                    equipped and fully air conditioned with personal computers for each student, LeD for Trainers. The
+                    Company building is<br>
+                    divided into four floors with dedicated practice labs, Language labs, Mock Interview preparation
+                    cabins and Green room Studio.</p2>
+            </details>
+            <details>
+                <summary>100% Job Assistance</summary>
+                <p2>Apart from training students from basics, we also focus on the preparation for HR round and
+                    technical questions round.<br>
+                    The training and placement team segregates the candidates according to the profile and gives one on
+                    one focus to every student. <br>
+                    We also include assistantship in profile building as well.</p2>
+            </details>
+            <details>
+                <summary>Internships & Live Projects</summary>
+                <p2>We promote students for internal and external internships in their domain . Our main focus is to
+                    make a candidate placement ready. <br>
+                    We provide internships in the field of Website development, Cyber security assistance and Graphics
+                    designing. Internships and live projects<br>
+                    not only boost the confidence of the candidate but also help them to crack the job of their desire
+                </p2>
+            </details>
+            <details>
+                <summary>Virtual iLabs & Projects</summary>
+                <p2> Content pending</p2>
+            </details>
+        </div>
+  </body>
+</html>
+
+
+
+
+
+
